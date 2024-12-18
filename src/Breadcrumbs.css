@@ -1,0 +1,12 @@
+.breadcrumbs {
+  padding: 10px 0px;
+  background-color: #f8f8f8;
+  color: #777;
+  font-size: 14px;
+}
+
+@media (max-width: 1600px) {
+  .breadcrumbs {
+    padding: 20px;
+  }
+}

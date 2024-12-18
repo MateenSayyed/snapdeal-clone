@@ -1,0 +1,26 @@
+.tags {
+  padding: 10px 0px;
+  display: flex;
+  gap: 10px;
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+}
+
+.tag-btn {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.tag-btn:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 1600px) {
+  .tags {
+    padding: 5px 20px;
+  }
+}
